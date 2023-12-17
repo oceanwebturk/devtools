@@ -1,0 +1,38 @@
+{
+  "name": "oceanwebturk/devtools",
+  "description": "The OceanWebTurk Devtools",
+  "type": "library",
+  "keywords":["oceanwebturk","framework","devtools"],
+  "license": "MIT",
+  "homepage":"https://github.com/oceanwebturk/devtools",
+  "support":{
+    "source": "https://github.com/oceanwebturk/devtools"
+  },
+  "require":{
+    "php": ">=7.4",
+    "oceanwebturk/support":"*"
+  },
+  "config":{
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "classmap-authoritative": true
+  },
+  "autoload":{
+   "psr-4":{
+    "OceanWT\\Devtools\\":"./src/"
+   }
+  },
+  "bin":[
+   "./oceanwebturk"
+  ],
+  "extra":{
+   "oceanwebturk":{
+    "providers":[
+     "OceanWT\\Devtools\\DevtoolsProvider"
+    ]
+   }
+  },
+  "minimum-stability":"dev",
+  "prefer-stable":true
+}
