@@ -7,6 +7,7 @@ __DIR__ . '/../../autoload.php',
 __DIR__ . '/../vendor/autoload.php',
 __DIR__ . '/vendor/autoload.php',
 WORKING_DIRECTORY.'/autoload.php',
+WORKING_DIRECTORY.'/bootstrap.php',
 WORKING_DIRECTORY.'/vendor/autoload.php',
 WORKING_DIRECTORY.'/.oceanwebturk/autoload.php',
 ];
